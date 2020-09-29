@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    background-color: #fdd88f;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+#wrapper div {
+    flex-basis: 33%;
+    height: 20px;
+    padding: 10px;
+    margin: 20px;
+    border: 6px solid #000000;
+}
+#firstPageHeader {
+
+
+}
+#second {
+
+
+}
+#third {
+
+    
+}
+#box1 {
+    background-color: #ff9900;
+}
+
+#box2 {
+    background-color: #ff9900;
+}
+
+#box3 {
+    background-color: #ff9900;
+}
