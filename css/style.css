@@ -156,6 +156,7 @@ img {
     background-image: url(../img/kodning.jpg);
     background-size: cover;
     background-position: top;
+ }
 }
 
  @media screen and (max-width: 700px) { body {
@@ -171,6 +172,7 @@ img {
  nav ul {
      flex-direction: row;
  }
+}
 
  @media screen and (max-width: 560px) { body {
     grid-template-columns: auto minmax(250px,650px) auto 50px;
@@ -231,3 +233,4 @@ cursor: pointer;
 nav ul {
     flex-direction: column;
 }
+ }
