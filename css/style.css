@@ -42,11 +42,20 @@ body {
 
 #wrapper div {
     
-    padding: 10px;
-    border: 6px solid #000000;
-    margin: 10px;
+    padding: 5px;
+    border: 3px solid #000000;
+    margin: 1px;
 }
-
+aside img {
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+    transition-property: border-radius;
+    transition-duration: 1s;
+}
+aside img:hover {
+    border-radius: 30px;
+}
 
 
 
@@ -117,7 +126,7 @@ main {
 aside {
     grid-area: aside;
     background-color: #59bbcc;
-    padding: 10px;
+    padding: 5px;
 }
 
 footer {
@@ -132,12 +141,14 @@ img {
     max-width: 100%;
 }
 .imgcss {
-    width: minmax(75px 150px);
-    height: minmax(75px 150px);
+    width: 95%;
+    height: 200px;
+    padding: 10px;
 }
 .imgcss2 {
-    width: minmax(75px 150px);
-    height: minmax(75px 150px);
+    width: 95%;
+    height: 200px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 900px) {header {
@@ -161,14 +172,38 @@ img {
  }
 
  @media screen and (max-width: 560px) { body {
-    grid-template-columns: auto minmax(300px,650px) 175px auto;
-    grid-template-rows: min-content 250px auto min-content;
+    grid-template-columns: auto minmax(250px,650px) auto 50px;
+    grid-template-rows: min-content min-content auto min-content;
     grid-template-areas: 
-    "nav    nav    aside   ."
+    "nav    nav    nav   aside"
     " header header header header"
-    ".   main   main   ."
+    "main   main   main   main"
     "footer footer footer footer";
 } 
+header { 
+    background-image: none;
+    height: min-content;
+}
+#wrapper {
+    display: block;
+}
+#wrapper div {
+    margin: 0;
+    padding: 0;
+}
+.imgcss {
+    width: 95%;
+    height: 200px;
+    padding: 10px;
+}
+.imgcss2 {
+    width: 95%;
+    height: 200px;
+    padding: 10px;
+}
+
+
+
 
 #menuicon {
 display: inline-block;
