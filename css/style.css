@@ -52,6 +52,7 @@ aside img {
     border-radius: 10px;
     transition-property: border-radius;
     transition-duration: 1s;
+    
 }
 aside img:hover {
     border-radius: 30px;
@@ -203,7 +204,9 @@ header {
 }
 
 
-
+aside img:hover {
+    transform: scale(1.5);
+}
 
 #menuicon {
 display: inline-block;

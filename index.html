@@ -23,13 +23,20 @@
         <div id="wrapper">
     <div id="box1">
         <h3>1-Beskriv boxmodellen och ge en kort förklaring av var och en av de egenskaper som ingår i den.</h3>
-        <p></p>
-        <img src="img/bla.png" alt="CSS" class="imgcss">
+        <p>boxmedellen är ett av de bästa sätten att beskriva ett XHTML-elements olika ytbegränsningar eller områden. Den består av dessa 4 egenskaper.</p>
+        <ul>
+            <li>Content-Innehållet i rutan där text och bilder visas</li>
+            <li>Padding-Rensar ett område runt innehållet. Vadderingen är transparent</li>
+            <li>border-En kant som går runt stoppningen och innehållet</li>
+            <li>Margin-Rensar ett område utanför gränsen. Marginalen är transparent</li>
+        </ul>
+        <img src="img/boxmodell.PNG" alt="CSS" class="imgcss">
     </div>
 
     <div id="box2">
      <h3>2-Beskriv också skillnaden mellan värdena content-box och border-box för egenskapen box-sizing.</h3>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, beatae autem. Odit deleniti veniam nam a, perspiciatis magnam, voluptate consequuntur dignissimos dolorem officiis repellendus vero ullam velit impedit? Assumenda, ea!</p>
+     <p>Content-box ger dig standard CSS box-storlek beteende. Om du ställer in elementets bredd till 100 pixlar kommer elementets innehållsruta att vara 100 pixlar bred och bredden på valfri kant eller vaddering läggs till i den slutliga renderade bredden, vilket gör elementet bredare än 100 pixlar.</p>
+     <p>Border-box ber webbläsaren att ta hänsyn till valfri kant och vaddering i de värden du anger för ett elements bredd och höjd. Om du ställer in ett elements bredd till 100 pixlar kommer de 100 pixlarna att inkludera vilken kant eller vaddering du har lagt till och innehållsrutan krymper för att absorbera den extra bredden. Detta gör det vanligtvis mycket lättare att dimensionera element.</p>
      <img src="img/cssss.png" alt="CSS" class="imgcss2">
     </div>
 </div>
