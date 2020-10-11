@@ -81,7 +81,7 @@ nav ul {
 nav a {
     text-decoration: none;
     display: block;
-    padding: 0.4rem;
+    padding: 1rem;
 }
 
 nav a:link, nav a:visited {
@@ -111,8 +111,8 @@ header {
 }
 
 header h1 {
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 150px;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
 
@@ -196,12 +196,12 @@ header {
 }
 .imgcss {
     width: 95%;
-    height: 200px;
+    height: 95%;
     padding: 10px;
 }
 .imgcss2 {
     width: 95%;
-    height: 200px;
+    height: 95%;
     padding: 10px;
 }
 
